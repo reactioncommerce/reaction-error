@@ -9,8 +9,8 @@ class ReactionError extends Error {
   details: any;
   error: any;
   eventData: any;
-  isClientSafe: any;
-  reason: any;
+  isClientSafe: boolean;
+  reason: string;
   constructor(error: any, message = "", eventData = {}) {
     super(message);
 
