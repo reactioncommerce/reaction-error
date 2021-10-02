@@ -6,7 +6,12 @@
  *   then be sent back to the client for a GraphQL request.
  */
 class ReactionError extends Error {
-  constructor(error, message = "", eventData = {}) {
+  details: any;
+  error: any;
+  eventData: any;
+  isClientSafe: any;
+  reason: any;
+  constructor(error: any, message = "", eventData = {}) {
     super(message);
 
     // In Node (7.2) console.log will print custom errors a bit differently unless all properties are defined as non-enumerable
