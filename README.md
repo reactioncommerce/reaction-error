@@ -1,3 +1,8 @@
+# This repository is deprecated
+
+This code is now located in our monorepo [here](https://github.com/reactioncommerce/reaction/tree/trunk/packages/reaction-error)
+
+
 # reaction-error
 
 
